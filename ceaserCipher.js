@@ -1,4 +1,4 @@
-//check value if its between 65 - 90 (according to ASCII Table)
+//check value if its between 65 - 90 (according to ASCII Table) link for ASCII table => https://ascii.cl
 //values of the letters are shifted by 13 places. Thus A ↔ N, B ↔ O and so on. (spaces, punctuations & symbols are passed-on as it is)
 
 function rot13(str) {
