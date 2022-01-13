@@ -1,3 +1,6 @@
+//check value if its between 65 - 90 (according to ASCII Table)
+//values of the letters are shifted by 13 places. Thus A ↔ N, B ↔ O and so on. (spaces, punctuations & symbols are passed-on as it is)
+
 function rot13(str) {
   let newStr = "";
   for (let i = 0; i < str.length; i++) {
@@ -20,5 +23,7 @@ function rot13(str) {
   return newStr;
 }
 
-rot13("SERR PBQR PNZC??");
-//check value if its between 65 - 90 (according to ASCII Table)
+rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.:)!!"); 
+
+//Output=> THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.:)!!
+
